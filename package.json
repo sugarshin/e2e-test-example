@@ -1,0 +1,20 @@
+{
+  "name": "e2e-test-example",
+  "private": true,
+  "description": "E2E test example",
+  "scripts": {
+    "test": "mocha --require intelli-espower-loader"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "author": "Shingo Sato",
+  "license": "MIT",
+  "dependencies": {
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^3.0.2",
+    "mocha-generators": "^1.2.0",
+    "nightmare": "^2.6.1",
+    "power-assert": "^1.4.1"
+  }
+}
